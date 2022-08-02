@@ -6,7 +6,10 @@ import Slider from '../components/slider'
 
 export default function Home() {
 return (
+
 <div className={styles.container}>
+
+  {/* ------------------- Head ------------------- */}
 
   <Head>
     <title>Tsunami Clapham</title>
@@ -14,24 +17,25 @@ return (
     <link rel="icon" href="/favicon.svg" />
   </Head>
 
+  {/* ------------------- Canvas ------------------- */}
+  <Slider />
+
+  {/* ------------------- Header ------------------- */}
   <header className={styles.header}>
     <Image src="/logo.svg" alt="Bespoke Programming Logo" width={100} height={24} />
   </header>
 
+  {/* ------------------- Main ------------------- */}
   <main className={styles.main}>
-
     <h1 className={styles.title}>
       Welcome to Tsunami!
     </h1>
-
     <p className={styles.description}>
       Explore our menu.
     </p>
-
-    <Slider />
-
   </main>
 
+  {/* ------------------- Footer ------------------- */}
   <footer className={styles.footer}>
     <p>© 2022</p>
     <span className={styles.logo}>

@@ -34,3 +34,7 @@ a {
   color: inherit;
   text-decoration: none;
 }
+
+.canvasHero {
+  z-index: -1;
+}
