@@ -12,8 +12,8 @@ return (
     <link rel="icon" href="/favicon.svg" />
   </Head>
 
-  <header>
-  <Image src="/logo.svg" alt="Bespoke Programming Logo" width={100} height={24} />
+  <header className={styles.header}>
+    <Image src="/logo.svg" alt="Bespoke Programming Logo" width={100} height={24} />
   </header>
 
   <main className={styles.main}>
