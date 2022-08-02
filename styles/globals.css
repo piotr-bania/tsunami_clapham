@@ -16,6 +16,7 @@ body {
   font-weight: 100;
   font-style: normal;
   margin: 3vh 8vw;
+  user-select: none;
 }
 
 h1,
